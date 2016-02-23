@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+
+.Header {
+  background-color: #373277;
+  color:            #ffffff;
+
+  .container {
+    margin:    0 auto;
+    padding:   20px 0;
+    max-width: $max-content-width;
+  }
+
+
+
+}

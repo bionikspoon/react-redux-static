@@ -1,0 +1,44 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-quotes": 0,
+    "brace-style": [
+      2,
+      "stroustrup",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "id-length": [
+      2,
+      {
+        "min": 1
+      }
+    ],
+    "new-cap": 0,
+    "max-len": [
+      2,
+      120
+    ],
+    "no-use-before-define": [
+      2,
+      "nofunc"
+    ],
+    "spaced-comment": 0,
+    "no-labels": 2,
+    "no-empty-label": 0,
+    "space-after-keywords": 0,
+    "space-before-keywords": 0,
+    "space-return-throw-case": 0,
+    "keyword-spacing": 2
+  }
+}
